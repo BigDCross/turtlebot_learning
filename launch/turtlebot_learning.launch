@@ -7,10 +7,10 @@
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="use_sim_time" value="true"/>
     <arg name="debug" value="false"/>
-    <arg name="world_name" value="/home/dustin/catkin_ws/src/turtlebot_learning/worlds/world_test.world"/>
+    <arg name="world_name" value="$(find turtlebot_learning)/worlds/world_test.world"/>
   </include>
   
-  <include file="/home/dustin/catkin_ws/src/turtlebot_learning/launch/includes/$(arg base).launch.xml">
+  <include file="$(find turtlebot_learning)/launch/includes/$(arg base).launch.xml">
     <arg name="base" value="$(arg base)"/>
     <arg name="stacks" value="$(arg stacks)"/>
     <arg name="3d_sensor" value="$(arg 3d_sensor)"/>
