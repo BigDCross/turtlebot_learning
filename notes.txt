@@ -1,0 +1,11 @@
+- If you save a .world file it will save the turtlebot with it. This is bad because the .launch files already places a turtlebot and
+    weird physics will result (ice skating turtlebot!)
+    To fix this modify the .world file directly and remove all the lines between
+    "<model name='mobile_base'>"
+    and its corresponding
+    "</model>"
+    as well as the second instance of the lines down near the bottom of the file.
+    You will end up removing around 1000 lines.
+    To avoid this completely you can also save the world after deleting the turtlebot.
+
+- To avoid resetting the world manually use the command "rosservice call /gazebo/reset_world"
