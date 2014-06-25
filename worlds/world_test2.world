@@ -73,7 +73,7 @@
       <shadows>1</shadows>
     </scene>
     <model name='unit_cylinder_1'>
-      <pose>1 0 1 0 -0 0</pose>
+      <pose>1 0 100 0 -0 0</pose>
       <link name='link'>
         <inertial>
           <mass>0.01</mass>
@@ -90,7 +90,7 @@
           <geometry>
             <cylinder>
               <radius>0.1</radius>
-              <length>0.05</length>
+              <length>1.00</length>
             </cylinder>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -108,7 +108,7 @@
           <geometry>
             <cylinder>
               <radius>0.1</radius>
-              <length>0.05</length>
+              <length>1.00</length>
             </cylinder>
           </geometry>
           <material>
@@ -129,9 +129,9 @@
       <static>0</static>
     </model>
     <state world_name='default'>
-      <sim_time>651 720000000</sim_time>
-      <real_time>299 271878952</real_time>
-      <wall_time>1402445587 741327190</wall_time>
+      <sim_time>0 0</sim_time>
+      <real_time>0 0</real_time>
+      <wall_time>0 0</wall_time>
       <model name='Construction Barrel'>
         <pose>-3.99999 1.41402 -9.2e-05 -9.3e-05 -0.000347 -0.000144</pose>
         <link name='link'>
@@ -223,7 +223,7 @@
         </link>
       </model>
       <model name='unit_cylinder_1'>
-        <pose>1.00002 -0.099148 0.025047 -0.00047 -1.6e-05 -1.65436e-24</pose>
+        <pose>1.0 0.0 100.0 0.0 0.0 0.0</pose>
         <link name='link'>
           <pose>1.00002 -0.099148 0.025047 -0.00047 -1.6e-05 -1.65436e-24</pose>
           <velocity>0 0 0 0 -0 0</velocity>
