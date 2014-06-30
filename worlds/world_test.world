@@ -73,7 +73,7 @@
       <shadows>1</shadows>
     </scene>
     <model name='unit_cylinder_1'>
-      <pose>1.0 0 1.0 0 -0 0</pose>
+      <pose>5.0 5 1.0 0 -0 0</pose>
       <link name='link'>
         <inertial>
           <mass>.01</mass>
@@ -129,7 +129,7 @@
       <static>0</static>
     </model>
     <model name='unit_cylinder_2'>
-      <pose>-1.0 0 1.0 0 -0 0</pose>
+      <pose>5.0 -5 1.0 0 -0 0</pose>
       <link name='link'>
         <inertial>
           <mass>.01</mass>
@@ -198,18 +198,18 @@
         </link>
       </model>
       <model name='unit_cylinder_1'>
-        <pose>1.0 0.0 1.0 0 -0 0</pose>
+        <pose>2.0 2.0 1.0 0 -0 0</pose>
         <link name='link'>
-          <pose>1.0 -0.0 0.5 0 -0 0</pose>
+          <pose>-5.0 5.0 0.5 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='unit_cylinder_2'>
-        <pose>-1.0 0.0 1.0 0 -0 0</pose>
+        <pose>5.0 -5.0 1.0 0 -0 0</pose>
         <link name='link'>
-          <pose>-1.0 -0.0 0.5 0 -0 0</pose>
+          <pose>-5.0 -5.0 0.5 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
